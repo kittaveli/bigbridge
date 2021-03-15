@@ -1,0 +1,58 @@
+* { box-sizing: border-box; }
+
+/* add background image by pasting its url between ('') */
+body {
+  background-image:url('');
+  background-color:black;
+  background-repeat:no-repeat;
+  background-size:cover;
+  font-family:Verdana;
+  color:black;
+  }
+
+/* this styles links for the whole page */
+a {
+  text-decoration:none;
+  color:darkblue;
+  }
+a:hover {
+  text-decoration:underline;
+  }
+
+/* this is the navbar / header thingie */
+.kitspace {
+  font-size:15px;
+  font-weight:bold;
+  height:90px;
+  background-color:darkblue;
+  color:white;
+  position:fixed;
+  text-align:center;
+  width:100%;
+  z-index:99;
+  }
+.kitlogo {
+  height:45px;
+  width:auto;
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:5px;
+  }
+  
+.kitspace a{
+  float: none;
+  display: inline-block;
+  width:50px;
+  height:30px;
+  font-weight:normal;
+  text-align:center;
+  margin:auto;
+  }
+
+/* Links - change color on hover */
+.kitspace a:hover {
+  color: orange;
+  }
+
+/* add other styles below  */
