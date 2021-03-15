@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>myspace template</title>
+  
+  <!-- links to stylesheets .... add your own but don't remove these ones or things will break lol -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://wavv.neocities.org/myspace/myspace-base.css" type="text/css" media="all">
+  
+  <!-- add any javascript stuff here -->
+  <script>
+  function myFunction() {
+    var x = document.getElementById("demo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  </script>
+  
+  
+  <style>
+  /* add other CSS styles here */
+  
+  </style>
+</head>
+
+<body>
+<center>
+  <!-- this is the nav bar, change it however or take it out -->
+  <div class="w3-top">
+    <div class="w3-bar" style="background-color:darkblue;color:white;font-size:11px;">
+       <div class="w3-content"><br>
+        top row of shit
+        <br>
+       </div>
+       <div class="w3-content" width="100%">
+        <a href="#" class="w3-bar-item w3-button">home</a>
+        <a href="#" class="w3-bar-item w3-button">something</a>
+        <a href="#" class="w3-bar-item w3-button">another thing</a>
+      </div>
+    </div>
+  </div>
+  
+<br><br>
+
+  <!-- left margin (empty, but you can add things) -->
+  <div class="w3-container w3-cell" style="width:15%;overflow:scroll">
+    <!--you can put pictures or whatever here-->
+  </div>
+  
+  <!-- middle/content section (the myspace part ) --> 
+  <div class="w3-container w3-cell w3-cell-middle w3-white"> <!--remove w3-white for transparent bg~!! -->
+    <div class="w3-cell-row" style="width:100%;margin-top:100px;">
+      
+      <!-- myspace (left half) -->
+      <div class="w3-container w3-cell" style="width:40%;text-align:left;">
+  
+          <!-- top name header -->
+          <div class="w3-container" style="font-weight:bold;font-size:24px;height:50px;">
+          YOURNAME
+          </div>
+          
+          <!-- profile pic + details -->
+          <div class="w3-cell-row">
+            <!-- avi -->
+            <div class="w3-container w3-cell" style="height:auto">
+              <!-- link your own photo here --><img src="https://wavv.neocities.org/myspace/img/kitty%20pretty%20disposable.jpg" style="width:100%;">
+            </div>
+            <!-- info -->
+            <div class="w3-cell" style="width:35%;text-align:left;font-size:12px;">
+              "here's your wonderful quote!!!!!!!"
+              <br><br>
+              YOURNAME<br>
+              <!-- online now icon --><img src="https://wavv.neocities.org/myspace/img/emo.gif" style="max-width:100%;padding:1px;"><br>
+              ** years old<br>
+              City, State<br>
+              Country<br><br>
+            </div>
+          </div>
+           
+          <!-- last login --> 
+            <div class="w3-cell-row" style="width:90%;text-align:left;font-size:12px;margin:auto;">
+              <div class="w3-cell"><br>Last login: 3/15/21</div>
+            </div>
+          
+          <!-- view my pics | videos (replace with links) -->
+          <div class="w3-cell-row w3-padding">
+            <div class="w3-cell">
+              <br>View My: <a href="https://instagram.com/kittywavvy"><font style="color:darkblue;font-weight:bold;">Pics</font></a>
+              &nbsp;|&nbsp; <a href="https://youtube.com/user/lesmisekati"><font style="color:darkblue;font-weight:bold;">Videos</font></a>
+            </div>
+          </div>
+          <br>
+          
+          <!-- url box (replace with your own link + text)-->
+          <center>
+            <div class="w3-cell-row w3-white" style="outline:solid 1.3px black;width:90%;text-align:left;padding:3px;">
+            &nbsp;<b>URL:</b> &nbsp;&nbsp; <a href="https://yoururl.com/" style="text-decoration:none;font-weight:normal;color:black;">
+            https://yoururl.com/
+            </a>
+            </div>
+          </center>
+          <br>
+          
+          <!-- music player (sign up at cincopa.com to make one like this!)-->
+          <div class="w3-cell-row w3-silver" style="margin-top:10px;margin-bottom:10px;"><div class="w3-cell w3-center" style="position:relative;height:40px;">
+                <iframe width="90%" height="40px" src="https://www.cincopa.com/media-platform/iframe.aspx?fid=AkNAMyOZTWeC" frameborder="0" allowfullscreen scrolling="no"></iframe>
+          </div></div>
+          
+          
+          <!-- contact box -->  
+          <div class="w3-cell-row">
+            <div class="w3-container" style="font-size:12px;">
+              <div class="w3-cell-row" style="outline:solid 1px white;font-weight:bold;color:white;background-color:steelblue;padding:3px;border-top:solid 1px black;">
+                &nbsp;Contacting YOURNAME
+              </div>
+              
+              <div class="w3-cell-row" style="text-align:center;border-left:solid 1px black;border-right:solid 1px black;"> 
+                <div class="w3-cell" style="background-repeat: no-repeat;background-image: url('https://wavv.neocities.org/myspace/img/addFriendIcon.gif');width:50%;padding:5px;">
+                  <a href="ADDLINK" style="font-weight:normal;color:blue;">&nbsp;Send Message</a><br>
+                  </div>
+                <div class="w3-cell" style="background-repeat: no-repeat;background-image: url('https://wavv.neocities.org/myspace/img/addFriendIcon.gif');width:50%;padding:5px;">
+                  <a href="ADDLINK" style="font-weight:normal;color:blue;">&nbsp;Add Friend</a><br>
+                </div>
+              </div>
+              <div class="w3-cell-row" style="text-align:center;border-bottom:solid 1px black;border-left:solid 1px black;border-right:solid 1px black;"> 
+                <div class="w3-cell" style="background-repeat: no-repeat;background-image: url('https://wavv.neocities.org/myspace/img/blockuser.gif');width:50%;padding:5px;">
+                  <a href="ADDLINK" style="font-weight:normal;color:blue;">&nbsp;Block User</a><br>
+                </div>
+                <div class="w3-cell" style="background-repeat:no-repeat;background-image: url('https://wavv.neocities.org/myspace/img/blockuser.gif');width:50%;padding:5px;">
+                  <a href="ADDLINK" style="font-weight:normal;color:blue;">&nbsp;Report User</a><br>
+                </div>
+              </div>
+          </div>
+          <br>
+          
+          <!--interests table (change header text to customize 'categories')-->
+            <div class="w3-container" style="text-align:left;font-size:12px;">
+              <div class="w3-cell-row" style="outline:solid 2px white;font-weight:bold;color:white;background-color:steelblue;padding:3px;">
+              &nbsp;NAME's Interests
+              </div>
+              <!-- general -->
+              <div class="w3-cell-row">
+                <div class="w3-cell" style="width:40%;outline:solid 2px white;padding:5px;background-color:#c2d9f0;color:#4367a3;"><b>General</b></div>
+                <div class="w3-cell" style="margin:1px;outline:solid 2px white;background-color:#dfecfa;padding:5px;">
+                  ADD STUFF HERE
+                </div>
+              </div>
+              <!-- music -->
+              <div class="w3-cell-row">
+                <div class="w3-cell" style="width:40%;outline:solid 2px white;padding:5px;background-color:#c2d9f0;color:#4367a3;"><b>Music</b></div>
+                <div class="w3-cell" style="margin:1px;outline:solid 2px white;background-color:#dfecfa;padding:5px;">
+                 ADD STUFF HERE
+                </div>
+              </div>
+              <!-- movies -->
+              <div class="w3-cell-row">
+                <div class="w3-cell" style="width:40%;outline:solid 2px white;background-color:#c2d9f0;padding:5px;color:#4367a3;"><b>Movies</b></div>
+                <div class="w3-cell" style="margin:1px;outline:solid 2px white;background-color:#dfecfa;padding:5px;">
+                  ADD STUFF HERE
+                </div>
+              </div>
+              <!-- television -->
+              <div class="w3-cell-row">
+                <div class="w3-cell" style="width:40%;outline:solid 2px white;background-color:#c2d9f0;padding:5px;color:#4367a3;"><b>Television</b></div>
+                <div class="w3-cell" style="margin:1px;outline:solid 2px white;background-color:#dfecfa;padding:5px;">
+                   ADD STUFF HERE
+                </div>
+              </div>
+              <!-- books -->
+              <div class="w3-cell-row">
+                <div class="w3-cell" style="width:40%;outline:solid 2px white;padding:5px;background-color:#c2d9f0;color:#4367a3;"><b>Books</b></div>
+                <div class="w3-cell" style="margin:1px;outline:solid 2px white;background-color:#dfecfa;padding:5px;">
+                 ADD STUFF HERE
+                </div>
+              </div>
+              <!-- heroes section-->
+              <div class="w3-cell-row">
+                <div class="w3-cell" style="width:40%;outline:solid 2px white;padding:5px;background-color:#c2d9f0;color:#4367a3;"><b>Heroes</b></div>
+                <div class="w3-cell" style="margin:1px;outline:solid 2px white;background-color:#dfecfa;padding:5px;">
+                  ADD STUFF HERE
+                </div>
+            </div>
+            </div>
+          <br>
+          
+         <!-- details table (change header text to customize 'categories')-->
+           <div class="w3-cell-row">
+            <div class="w3-container" style="text-align:left;font-size:12px;">
+              <div class="w3-cell-row" style="font-weight:bold;color:white;background-color:steelblue;padding:3px;">
+              &nbsp; YOURNAME's Details
+              </div>
+              <!-- occupation -->
+              <div class="w3-cell-row">
+                <div class="w3-cell" style="width:40%;outline:solid 2px white;padding:5px;background-color:#c2d9f0;color:#4367a3;"><b>Occupation:</b></div>
+                <div class="w3-cell" style="margin:1px;outline:solid 2px white;background-color:#dfecfa;padding:5px;">
+                  ADD STUFF HERE
+                </div>
+              </div>
+              <!-- status -->
+              <div class="w3-cell-row">
+                <div class="w3-cell" style="width:40%;outline:solid 2px white;padding:5px;background-color:#c2d9f0;color:#4367a3;"><b>Status:</b></div>
+                <div class="w3-cell" style="margin:1px;outline:solid 2px white;background-color:#dfecfa;padding:5px;">
+                 ADD STUFF HERE
+                </div>
+              </div>
+              <!-- orientation -->
+              <div class="w3-cell-row">
+                <div class="w3-cell" style="width:40%;outline:solid 2px white;padding:5px;background-color:#c2d9f0;color:#4367a3;"><b>Orientation:</b></div>
+                <div class="w3-cell" style="margin:1px;outline:solid 2px white;background-color:#dfecfa;padding:5px;">
+                  ADD STUFF HERE
+                </div>
+              </div>
+              <!-- religion -->
+              <div class="w3-cell-row">
+                <div class="w3-cell" style="width:40%;outline:solid 2px white;padding:5px;background-color:#c2d9f0;color:#4367a3;"><b>Religion:</b></div>
+                <div class="w3-cell" style="margin:1px;outline:solid 2px white;background-color:#dfecfa;padding:5px;">
+                  ADD STUFF HERE
+                </div>
+              </div>
+              <!-- zodiac sign -->
+              <div class="w3-cell-row">
+                <div class="w3-cell" style="width:40%;outline:solid 2px white;background-color:#c2d9f0;padding:5px;color:#4367a3;"><b>Zodiac Sign:</b></div>
+                <div class="w3-cell" style="margin:1px;outline:solid 2px white;background-color:#dfecfa;padding:5px;">
+                  ADD STUFF HERE
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+      </div>
+    </div>
+      
+      
+      <!-- myspace (right half) -->
+      <div class="w3-container w3-cell w3-center" style="width:60%;">
+      
+        <!-- extended network box (to use an image, remove w3-white) --> 
+          <div class="w3-row">
+            <div class="w3-container w3-white" style="border:solid 3px black;font-size:20px;font-weight:bold;height:100px;">
+            <br> YOURNAME is in your extended network <br>
+            </div>
+          </div>
+        
+        <!-- blog section --> 
+          <div class="w3-row">
+            <div class="w3-container" style="text-align:left;padding:5px;font-weight:bold;">
+            <br>YOURNAME's Latest Blog Entry 
+             <!-- add your "blog" post link -->
+             [<a href="http://bloglink.com">Subscribe to this Blog</a>]
+            <br><br>
+             <!-- add your "blog" link -->
+             [<a href="https://somelink.com">View All Blog Entries</a>]
+            </div>
+          </div>
+          
+        <br>
+        <br>
+        
+        <!-- 'blurbs' / about me --> 
+          <div class="w3-row" style="width:100%">
+            <table bordercolor="ffcc99" cellspacing="0" cellpadding="0" width="100%" border="0">
+              <!-- blurb header -->
+              <tr>
+                <td class="text" valign="center" align="left" bgcolor="ffcc99" height="17" style="padding:5px">
+                  <font style="font-weight:bold" color="#ed8a2f">YOURNAME's Blurbs</font>
+                  </td>
+              </tr>
+              <!-- blurb text starts here -->
+              <tr>
+                <td>
+                <table bordercolor="000000" cellspacing="3" cellpadding="3" width="100%" align="center" bgcolor="ffffff" border="0">
+                <tr><td valign="top" align="left" bgcolor="ffffff">
+                <font style="font-weight:bold"  color="#ed8a2f">About Me:</font><br>
+                <!-- here's your 'about me' section -->
+                <p>here is about me text !!!</p>
+                <br><br><br><br>
+                </td></tr>
+                <tr><td valign="top" align="left" bgcolor="ffffff">
+                <font style="font-weight:bold"  color="#ed8a2f">Who I'd like to meet:</font><br>
+                <!-- here's your 'who i'd like to meet' section -->
+                <p>here's your who i'd like to meet text !!!</p>
+                <br><br><br>
+                </td></tr>
+                </table>
+              <td></tr>
+            </table>
+          </div>
+         <br> 
+         
+         <!-- top friends section --> 
+          <div class="w3-row w3-center">
+            <table cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+              <td class="text" valign="center" align="left" bgcolor="ffcc99" height="17" style="word-wrap:break-word;color:#ed8a2f;font-weight:bold;padding:5px;">
+               YOURNAME's Friend Space
+              </td>
+            </tr>
+            <tr>
+              <td style="font-weight:bold"><p align="left">YOURNAME has <font color="red">234563</font> friends.</p><br>
+               
+                <!-- friend links (replace links + images with friends, or add whatever-->
+                  <div class="w3-cell-row" width="80%" margin="10px">
+                    <div class="w3-cell">
+                      <a href="https://wavv.neocities.org/myspace/myspace3.html"><img src="https://wavv.neocities.org/myspace/img/56690387.gif" style="max-width:100px">
+                      <br><br><b>
+                      friend 1
+                      </b></a>
+                    </div>
+                    <div class="w3-cell">
+                     <a href="https://wavv.neocities.org/myspace/myspace3.html"><img src="https://wavv.neocities.org/myspace/img/56690387.gif" style="max-width:100px">
+                     <br><br><b>
+                      friend 2
+                      </b></a>
+                    </div>
+                    <div class="w3-cell">
+                      <a href="https://wavv.neocities.org/myspace/myspace3.html"><img src="https://wavv.neocities.org/myspace/img/56690387.gif" style="max-width:100px">
+                      <br><br><b>
+                      friend 3
+                      </b></a>
+                    </div>
+                    <div class="w3-cell">
+                      <a href="https://wavv.neocities.org/myspace/myspace3.html"><img src="https://wavv.neocities.org/myspace/img/56690387.gif" style="max-width:100px"><br><br><b>
+                      friend 4
+                      </b></a>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="w3-cell-row" width="80%" margin="10px">
+                    <div class="w3-cell">
+                      <a href="https://wavv.neocities.org/myspace/myspace3.html"><img src="https://wavv.neocities.org/myspace/img/56690387.gif" style="max-width:100px">
+                      <br><br><b>
+                      friend 5
+                      </b></a>
+                    </div>
+                    <div class="w3-cell">
+                      <a href="https://wavv.neocities.org/myspace/myspace3.html"><img src="https://wavv.neocities.org/myspace/img/56690387.gif" style="max-width:100px">
+                      <br><br><b>
+                      friend 6
+                      </b></a>
+                    </div>
+                    <div class="w3-cell">
+                      <a href="https://wavv.neocities.org/myspace/myspace3.html"><img src="https://wavv.neocities.org/myspace/img/56690387.gif" style="max-width:100px">
+                      <br><br><b>
+                      friend 7
+                      </b></a>
+                    </div>
+                    <div class="w3-cell">
+                      <a href="https://wavv.neocities.org/myspace/myspace3.html"><img src="https://wavv.neocities.org/myspace/img/56690387.gif" style="max-width:100px">
+                      <br><br><b>
+                      friend 8
+                      </b></a>
+                    </div>
+                  </div>
+                </td></tr>
+            </table>
+          </div>
+         <br> 
+         
+         <!-- comment section --> 
+         <div class="w3-row">
+          <table cellspacing="0" cellpadding="0" width="100%">
+           
+            <!-- comment header -->
+            <tr>
+              <td class="text" valign="center" align="left" bgcolor="ffcc99" height="17" style="color:#ed8a2f;font-weight:bold;padding:5px;">
+               YOURNAME's Friend's Comments
+              </td>
+            </tr>
+           
+            <!-- add/style "comments" here -->
+            <tr>
+              <td>
+                  <div class="w3-cell-row" style="background-color:white;padding:2px">
+                      <div class="w3-cell" style="align:left;width:39%;background-color:#ed8a2f;">
+                        <a href="http://friendlink.com" style="text-align:center"><b>friends name</b></a>
+                        <br><br>
+                        <img src="https://wavv.neocities.org/myspace/img/56690387.gif" style="max-width:100%;padding:5px;">
+                      </div>
+                      <div class="w3-cell" style="text-align:left;outline:solid 2px white;padding:10px;background-color:#ffcc99;">
+                        <p style="date"><b>the date</b></p>
+                        <p>the comment</p>
+                      </div>
+                  </div>
+              </td>
+            </tr>
+          </table>
+         </div>
+         
+    </div>
+    </div>
+  </div>
+  
+  <!-- right side margin (add whatever) -->
+    <div class="w3-container w3-cell" style="width:15%">
+    </div>
+  
+</center>
+</body>
+</html>
