@@ -20,38 +20,30 @@ a:hover {
   }
 
 /* this is the navbar / header thingie */
-.kitspace {
-  font-size:15px;
-  font-weight:bold;
-  height:90px;
-  background-color:darkblue;
-  color:white;
-  position:fixed;
-  text-align:center;
-  width:100%;
-  z-index:99;
-  }
-.kitlogo {
-  height:45px;
-  width:auto;
-  position:relative;
-  margin-left:auto;
-  margin-right:auto;
-  margin-bottom:5px;
-  }
-  
-.kitspace a{
-  float: none;
-  display: inline-block;
-  width:50px;
-  height:30px;
-  font-weight:normal;
-  text-align:center;
-  margin:auto;
-  }
 
-/* Links - change color on hover */
+.kitbar {
+  background-image:url('https://wavv.neocities.org/myspace/img/kitspace_logo.png');
+  background-repeat:no-repeat;
+  background-position: 20px 20px;
+  background-attachment: scroll;
+  background-size: auto 50px;
+  width:100%;
+  height:100%;
+  text-align:center;
+  color:white;
+}
+.kitbar a{
+  display: inline-block;
+  padding:10px;
+  color:white;
+  font-size:11px;
+  font-weight:normal;
+  margin-left:5px;
+  margin-right:5px;
+  vertical-align: baseline;
+  }
 .kitspace a:hover {
+  background-color:black;
   color: orange;
   }
 
